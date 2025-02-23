@@ -1,10 +1,12 @@
 import { useState } from "react"
 
+import "./HiddenText.scss"
+
 const HiddenText = () => {
   const [showMessage, setShowMessage] = useState(false)
 
   return (
-    <div>
+    <div className="HiddenText">
       <button onClick={() => setShowMessage(!showMessage)}>
         {!showMessage ? "Mostrar" : "Ocultar"}
       </button>

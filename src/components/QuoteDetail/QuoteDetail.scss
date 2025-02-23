@@ -1,0 +1,32 @@
+.QuoteDetail {
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+
+  cite {
+    display: block;
+    font-size: 1.4em;
+    color: #2c3e50;
+    margin: 20px 0;
+    line-height: 1.6;
+    font-style: italic;
+  }
+
+  div:nth-child(3) {
+    color: #7f8c8d;
+    font-size: 0.9em;
+    margin-bottom: 20px;
+  }
+
+  button {
+    margin-top: 20px;
+  }
+}
