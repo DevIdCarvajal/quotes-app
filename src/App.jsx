@@ -8,13 +8,13 @@ import HiddenText from "./components/HiddenText/HiddenText"
 import QuotesList from "./components/QuotesList/QuotesList"
 import QuoteDetail from "./components/QuoteDetail/QuoteDetail"
 
-import mockData from "./data/mock-quotes"
+import { mockData } from "./data/mock-quotes"
 
 const App = () => {
   const [heading, setHeading] = useState("Citas ilustres")
   const changeMessage = message => setHeading(message)
-  // const [quotes, setQuotes] = useState(mockData)
-  const [quotes, setQuotes] = useState([])
+  const [quotes, setQuotes] = useState(mockData)
+  // const [quotes, setQuotes] = useState([])
   
   return (
     <div className="App">
