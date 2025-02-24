@@ -27,9 +27,9 @@ const Header = ({heading, changeMessage}) => {
   )
 }
 
-// Header.propTypes = {
-//   heading: PropTypes.string.isRequired,
-//   changeMessage: PropTypes.func.isRequired
-// }
+Header.propTypes = {
+  heading: PropTypes.string.isRequired,
+  changeMessage: PropTypes.func.isRequired
+}
 
 export default Header
